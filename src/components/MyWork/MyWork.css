@@ -1,0 +1,75 @@
+.mywork {
+  padding: 60px 10%;
+  background: #161513; /* your uploaded background color */
+  color: #fff;
+}
+
+
+.mywork-title {
+  text-align: center;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.mywork-title img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 150px;
+  transform: translate(-50%, -50%);
+  opacity: 0.05; /* faint watermark look */
+}
+
+.mywork-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.mywork-card {
+  background: #111; /* dark gray for contrast */
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(255,255,255,0.05);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mywork-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(255,255,255,0.1);
+}
+
+.mywork-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.mywork-card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #fff; /* ensure heading is white */
+}
+
+.mywork-card p {
+  font-size: 14px;
+  color: #bbb; /* lighter gray for description */
+  margin-bottom: 15px;
+}
+
+.mywork-tech {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.tech-badge {
+  padding: 5px 10px;
+  font-size: 13px;
+  background: #222; /* dark badge */
+  color: #fff;      /* white text */
+  border: 1px solid #444;
+  border-radius: 20px;
+}
