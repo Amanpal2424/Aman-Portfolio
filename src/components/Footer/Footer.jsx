@@ -9,7 +9,7 @@ const Footer = () => {
           <p>
             Creating exceptional digital experiences through innovative design and cutting-edge technology.
             <br /><br />
-            Follow me on social media to see my latest projects and updates.
+            Follow me social media to see my latest projects and updates.
           </p>
         </div>
       </div>
