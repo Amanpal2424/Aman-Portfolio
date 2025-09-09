@@ -73,3 +73,22 @@
   border: 1px solid #444;
   border-radius: 20px;
 }
+.mywork-link {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 8px 14px;
+  background: #007bff;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: background 0.3s ease;
+}
+
+.mywork-link:hover {
+  background: #0056b3;
+}
+
+.mywork-card {
+  cursor: pointer;
+}
