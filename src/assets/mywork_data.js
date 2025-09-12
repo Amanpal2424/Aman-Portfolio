@@ -21,7 +21,7 @@ const mywork_data = [
         w_img: project1_img,
         description: "A platform to host and manage hackathons with team collaboration features.",
         technologies: ["React", "CSS", "JavaScript","node.js","express","mongodb"],
-        link: "https://hackathonplatform.vercel.app/"   // 🔥 Added live link here
+        link: "https://hackathon-p-uens.vercel.app/"   // 🔥 Added live link here
     },
     
     
